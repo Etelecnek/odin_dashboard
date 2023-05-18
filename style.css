@@ -1,0 +1,97 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.dashboard_container {
+    grid-column: 1;
+    grid-row: 1/4;
+    color: white;
+    background-color: rgb(37, 168, 255);
+}
+
+.header {
+    grid-column: 2/5;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 4fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.search {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.notification {
+    grid-column: 6;
+    grid-row: 1;
+}
+
+.user {
+    grid-column: 8;
+    grid-row: 1;
+}
+
+.greet_container {
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.greet_usericon {
+    grid-column: 1;
+    grid-row 1;
+}
+
+.greet {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.greet_user {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.toolbar_buttons {
+    grid-column: 5/8;
+    grid-row: 2;
+}
+
+.body {
+    grid-column: 2/4;
+    grid-row: 2/4;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(218, 218, 218);
+}
+
+.projects {
+    background-color: white;
+    border-radius: 10px;
+    border-left: solid orange;
+    margin: 20px;
+    padding: 20px;
+}
+
+.sidebar {
+    grid-column: 4;
+    grid-row: 2/4;
+    background-color: rgb(218, 218, 218);
+}
+
+.announcements,
+.trending {
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.sidebar_title {
+    margin-left: 20px;
+}
